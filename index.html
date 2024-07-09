@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christmas-template</title>
+    <style>
+      .body {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(116, 212, 128);
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+      }
+
+      .Container {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100%;
+        
+        
+      }
+
+      .terminal:hover,
+        .bottom-right-section {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+
+        }
+
+      .terminal {
+        background-color:rgb(0, 255, 153);
+        width: 200%;
+        height: 200%;
+        object-fit: cover;
+        
+      }
+
+      img {
+        margin-top: 70px;
+        border-radius: 50%;
+        background-color: rgb(240, 255, 252);
+      }
+
+      .bottom-right-section {
+  position: fixed;
+  bottom: 100px; 
+  right: 60px; 
+  display: flex;
+  gap: 30px; 
+}
+
+.bottom-right-section img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 25px; 
+}
+
+     .paragraph {
+      position: fixed;
+      align-content: center;
+      align-items: center;
+      top: 0px;
+      left: 600px;
+  
+}
+
+.paragraph img {
+  width: 70%;
+  height: 70%;
+  border-radius: ;
+}
+
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="Container">
+      <div class="terminal">
+        <img src="santa.png" alt="">
+      </div>
+    </div>
+    <div class="bottom-right-section">
+      <img src="gifts.png" alt="Image 1">
+      <img src="chocolate.png" alt="Image 2">
+      <img src="cake.png" alt="Image 3">
+      <img src="gift.png" alt="Image 4">
+      <img src="g1.png" alt="Image 5">
+      <img src="g2.png" alt="Image 6">
+      <img src="g3.png" alt="Image 7">
+      <img src="g4.png" alt="Image 8">
+    </div>
+
+    <div class="paragraph">
+      <img src="wishes.png" alt="wish 1">
+    </div>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
